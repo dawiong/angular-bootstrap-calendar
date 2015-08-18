@@ -13,8 +13,8 @@
           href="javascript:;"
           class="event-item"
           ng-click="vm.onEventClick({calendarEvent: event})">
-          <span ng-bind-html="vm.$sce.trustAsHtml(event.title)"></span>
-          <span ng-show="isMonthView">(<span ng-bind="event.startsAt | calendarDate:'time':true"></span>)</span>
+          <span ng-bind-html="vm.$sce.trustAsHtml(event.title)"></span><span ng-if="event.title"> - </span>
+          <span ng-show="isMonthView">(<span ng-bind-template="{{(event.startsAt | calendarDate:'time':true) + ' - ' + (event.endsAt | calendarDate:'time':true)}}"></span>)</span>
           <span ng-show="isYearView">(<span ng-bind="event.startsAt | calendarDate:'datetime':true"></span>)</span>
         </a>
 

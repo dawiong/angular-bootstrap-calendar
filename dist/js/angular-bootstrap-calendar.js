@@ -1576,7 +1576,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            break;
 
 	          default:
-	            throw new Error('Invalid value (' + event.recursOn + ') given for recurs on. Can only be year, month or week.');
+	            throw new Error('Invalid value (' + event.recursOn + ') given for recurs on. Can only be year or month.');
 	        }
 
 	        eventEnd = adjustEndDateFromStartDiff(event.startsAt, eventStart, eventEnd);

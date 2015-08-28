@@ -32,6 +32,14 @@ angular
         recursOn: 'year',
         draggable: true,
         resizable: true
+      }, {
+        title: 'Some Holiday',
+        type: 'holiday',
+        startsAt: moment().subtract(5, 'days').toDate(),
+        endsAt: moment().subtract(5, 'days').toDate(),
+        recursOn: 'year',
+        draggable: true,
+        resizable: true
       }
     ];
 

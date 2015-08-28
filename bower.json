@@ -1,7 +1,7 @@
 {
-  "name": "angular-bootstrap-calendar",
+  "name": "cs-bootstrap-calendar",
   "version": "0.14.6",
-  "homepage": "https://github.com/mattlewis92/angular-bootstrap-calendar",
+  "homepage": "https://github.com/dawiong/angular-bootstrap-calendar",
   "authors": [
     "Matt Lewis"
   ],

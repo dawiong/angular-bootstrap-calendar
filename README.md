@@ -3,6 +3,7 @@
 ## Table of contents
 
 - [About](#about)
+- [Modifications](#modifications)
 - [License](#licence)
 
 ## About
@@ -13,6 +14,18 @@ It's a clone of the source scripts, but I had to edit the templates manually for
 event end times to show in the tooltips and slidedown box for the month view.
 
 The future work I see here, is to provide a configuration for the tooltips and cells.
+
+##Modifications
+
+###Support for Holidays
+
+Events of type 'holiday' will be handled differently. Holiday titles will display on
+the cells, will not be marked as event circles, and will not show on the slidebox.
+
+###Modified templates
+
+1. Tooltips Format -> `(08:00 - 09:00) - An event`
+2. Slide Box -> `An event - (08:00 - 09:00)`
 
 ## License
 
